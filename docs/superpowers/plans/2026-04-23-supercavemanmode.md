@@ -29,7 +29,7 @@ supercavemanmode/
 **Files:**
 - Create: `LICENSE`
 
-- [ ] **Step 1: Create LICENSE**
+- [x] **Step 1: Create LICENSE**
 
 Write exactly this content to `LICENSE`:
 
@@ -57,12 +57,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-- [ ] **Step 2: Verify file exists and is non-empty**
+- [x] **Step 2: Verify file exists and is non-empty**
 
 Run: `test -s C:/Users/Marc/supercavemanmode/LICENSE && echo ok`
 Expected: `ok`
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git -C /c/Users/Marc/supercavemanmode add LICENSE
@@ -78,7 +78,7 @@ git -C /c/Users/Marc/supercavemanmode commit -m "chore: add MIT license"
 
 This matches the schema used by the official superpowers plugin (`name`, `description`, `version`, `author`, `homepage`, `repository`, `license`, `keywords`).
 
-- [ ] **Step 1: Create manifest**
+- [x] **Step 1: Create manifest**
 
 Write to `.claude-plugin/plugin.json`:
 
@@ -105,12 +105,12 @@ Write to `.claude-plugin/plugin.json`:
 }
 ```
 
-- [ ] **Step 2: Verify JSON parses**
+- [x] **Step 2: Verify JSON parses**
 
 Run: `python -c "import json; json.load(open('C:/Users/Marc/supercavemanmode/.claude-plugin/plugin.json'))" && echo ok`
 Expected: `ok`
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git -C /c/Users/Marc/supercavemanmode add .claude-plugin/plugin.json
@@ -126,7 +126,7 @@ git -C /c/Users/Marc/supercavemanmode commit -m "feat: add plugin manifest"
 
 The skill body must encode: activation model (always-on after invoke, off on "normal mode"/"verbose"), compression rules (drop filler, keep information), superpowers interop (workflows still run, output is compressed), and safety auto-disable.
 
-- [ ] **Step 1: Create SKILL.md**
+- [x] **Step 1: Create SKILL.md**
 
 Write to `skills/supercavemanmode/SKILL.md`:
 
@@ -213,12 +213,12 @@ Before (safety-disabled, NOT compressed):
 > "About to run `git reset --hard origin/main`. This will discard all your local uncommitted changes in src/, including the work from this session. Confirm before proceeding."
 ````
 
-- [ ] **Step 2: Verify frontmatter fields present**
+- [x] **Step 2: Verify frontmatter fields present**
 
 Run: `grep -E "^(name|description):" /c/Users/Marc/supercavemanmode/skills/supercavemanmode/SKILL.md | wc -l`
 Expected: `2`
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git -C /c/Users/Marc/supercavemanmode add skills/supercavemanmode/SKILL.md
@@ -232,7 +232,7 @@ git -C /c/Users/Marc/supercavemanmode commit -m "feat: add supercavemanmode skil
 **Files:**
 - Create: `README.md`
 
-- [ ] **Step 1: Create README.md**
+- [x] **Step 1: Create README.md**
 
 Write to `README.md`:
 
@@ -291,12 +291,12 @@ Affects assistant text output only. Does not compress generated code, commit mes
 MIT
 ````
 
-- [ ] **Step 2: Verify file exists**
+- [x] **Step 2: Verify file exists**
 
 Run: `test -s /c/Users/Marc/supercavemanmode/README.md && echo ok`
 Expected: `ok`
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git -C /c/Users/Marc/supercavemanmode add README.md
