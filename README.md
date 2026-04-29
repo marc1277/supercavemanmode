@@ -17,7 +17,7 @@ Inspired by and complementary to [JuliusBrussee/caveman](https://github.com/Juli
 Clone into your Claude Code plugins directory, or add via your marketplace of choice:
 
 ```bash
-git clone https://github.com/bamboosoft/supercavemanmode
+git clone https://github.com/marc1277/supercavemanmode
 ```
 
 Then in Claude Code, invoke the skill:
