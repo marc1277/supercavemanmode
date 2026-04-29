@@ -14,13 +14,28 @@ Inspired by and complementary to [JuliusBrussee/caveman](https://github.com/Juli
 
 ## Install
 
-Clone into your Claude Code plugins directory, or add via your marketplace of choice:
+### Claude Code (one-time, no clone needed)
+
+In any Claude Code session, register this repo as a plugin marketplace, then install:
+
+```
+/plugin marketplace add marc1277/supercavemanmode
+/plugin install supercavemanmode@supercavemanmode
+```
+
+That's it. Restart the session if the skill doesn't appear immediately.
+
+### Manual / development install
 
 ```bash
 git clone https://github.com/marc1277/supercavemanmode
 ```
 
-Then in Claude Code, invoke the skill:
+Then point Claude Code at the local path or copy into `~/.claude/plugins/`.
+
+## Activate
+
+Once installed, invoke the skill in chat:
 
 ```
 /skill supercavemanmode

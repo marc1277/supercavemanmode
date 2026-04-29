@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "supercavemanmode",
+  "description": "SuperCaveManMode plugin marketplace",
+  "owner": {
+    "name": "Marc-Andre",
+    "email": "marc-andre@bamboosoft.ca"
+  },
+  "plugins": [
+    {
+      "name": "supercavemanmode",
+      "description": "Caveman-style token compression layered on top of superpowers workflows. Drops filler, keeps structure and precision. Auto-disables for destructive ops and security warnings.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/marc1277/supercavemanmode.git"
+      },
+      "homepage": "https://github.com/marc1277/supercavemanmode"
+    }
+  ]
+}
