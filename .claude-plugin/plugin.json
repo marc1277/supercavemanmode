@@ -1,0 +1,20 @@
+{
+  "name": "supercavemanmode",
+  "description": "Caveman-style token compression layered on top of superpowers workflows. Drops filler, keeps structure and precision. Auto-disables for destructive ops and security warnings.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Marc-Andre",
+    "email": "marc-andre@bamboosoft.ca"
+  },
+  "homepage": "https://github.com/bamboosoft/supercavemanmode",
+  "repository": "https://github.com/bamboosoft/supercavemanmode",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "claude-code",
+    "superpowers",
+    "caveman",
+    "token-compression",
+    "tokens"
+  ]
+}
